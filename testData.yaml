@@ -1,0 +1,60 @@
+testdata:
+  - testName: LoginTest
+    data:
+      - run_mode: "y"
+        browser: "Chrome"
+        username: "user12345@example.com"
+        password: "pass67890"
+      - run_mode: "n"
+        browser: "Firefox"
+        username: "user54321@example.com"
+        password: "pass09876"
+      - run_mode: "y"
+        browser: "Edge"
+        username: "user98765@example.com"
+        password: "pass43210"
+
+  - testName: SignupTest
+    data:
+      - run_mode: "y"
+        browser: "Safari"
+        username: "user11223@example.com"
+        password: "pass33445"
+      - run_mode: "n"
+        browser: "Opera"
+        username: "user66778@example.com"
+        password: "pass99001"
+      - run_mode: "y"
+        browser: "Brave"
+        username: "user55443@example.com"
+        password: "pass22334"
+
+  - testName: PasswordResetTest
+    data:
+      - run_mode: "y"
+        browser: "Chrome"
+        username: "resetuser123@example.com"
+        password: "resetpass678"
+      - run_mode: "n"
+        browser: "Firefox"
+        username: "resetuser456@example.com"
+        password: "resetpass234"
+      - run_mode: "y"
+        browser: "Edge"
+        username: "resetuser789@example.com"
+        password: "resetpass910"
+
+  - testName: ProfileUpdateTest
+    data:
+      - run_mode: "y"
+        browser: "Chrome"
+        username: "updateuser123@example.com"
+        password: "updatepass456"
+      - run_mode: "n"
+        browser: "Firefox"
+        username: "updateuser789@example.com"
+        password: "updatepass123"
+      - run_mode: "y"
+        browser: "Edge"
+        username: "updateuser456@example.com"
+        password: "updatepass789"
